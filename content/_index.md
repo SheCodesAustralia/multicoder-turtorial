@@ -1,10 +1,10 @@
 ---
-title: 'She Codes'
-date: 2021-01-25T14:25:05+08:00
-draft: false
+title: "She Codes"
 ---
 
 # Welcome to She Codes
+
+This will have the description for explaining who does what game.
 
 ### Please select a tutorial
 
