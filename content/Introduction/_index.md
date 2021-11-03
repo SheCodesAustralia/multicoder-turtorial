@@ -5,5 +5,5 @@ weight: 1
 
 Start here
 
-- Getting set up on the platform
-- Creating a new file
+-   Getting set up on the platform
+-   Creating and running Python files
