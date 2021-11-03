@@ -64,3 +64,4 @@ class MoveObject:
 ```
 
 TODO explain this line by line.
+WARNING the robot might have added this already
