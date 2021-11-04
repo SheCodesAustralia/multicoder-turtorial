@@ -1,5 +1,5 @@
 ---
-title: Understanding the Grid Coordinate System
+title: 🎯 Understanding the Grid Coordinate System
 weight: 1
 ---
 

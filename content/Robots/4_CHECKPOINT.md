@@ -1,5 +1,5 @@
 ---
-title: Checkpoint
+title: ✅ Checkpoint
 weight: 4
 ---
 

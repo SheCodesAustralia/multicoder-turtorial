@@ -1,6 +1,6 @@
 ---
 title: ✅ Checkpoint
-weight: 4
+weight: 8
 ---
 
 TODO

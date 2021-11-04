@@ -1,5 +1,5 @@
 ---
-title: Make Myrtle Spin
+title: 😵‍💫 Make Myrtle Spin
 weight: 2
 ---
 

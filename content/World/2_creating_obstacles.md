@@ -1,5 +1,5 @@
 ---
-title: Creating Obstacles
+title: 🪨 Creating Obstacles
 weight: 2
 ---
 
