@@ -19,19 +19,19 @@ weight: 7
 # MoveObject.py
     def move_forward(self):
         ##
--        self.forward(STEP_SIZE)
-+        direction = self.heading()
-+        if direction == 90.0:  # facing up
-+            new_pos = self.get_forwards_position()
-+        if direction == 0.0:  # facing right
-+            new_pos = self.get_right_position()
-+        if direction == 270.0:  # facing down
-+            new_pos = self.get_backwards_position()
-+        if direction == 180.0:  # facing left
-+            new_pos = self.get_left_position()
+        direction = self.heading()
+        if direction == 90.0:  # facing up
+            new_pos = self.get_forwards_position()
+        if direction == 0.0:  # facing right
+            new_pos = self.get_right_position()
+        if direction == 270.0:  # facing down
+            new_pos = self.get_backwards_position()
+        if direction == 180.0:  # facing left
+            new_pos = self.get_left_position()
 
-+        if not self.game.current_world.cell_contains_portal(new_pos):
-+            self.forward(STEP_SIZE)
+        if self.game.current_world.cell_is_empty(new_pos):
+            self.current_position = new_pos
+            self.forward(STEP_SIZE)
 
 +        if self.allowed_through_portal:
 +            if self.game.current_world.cell_contains_portal(new_pos):
