@@ -51,3 +51,24 @@ turtle.mainloop()
 ```
 
 Everytime you start the game, the turtle should move a random number of steps.
+
+Let's make it keep moving:
+
+```diff
+# game.py
+turtle.listen()
+
+game = Game()
+game.create_base_world()
+game.draw_world()
+
+##
+game.create_robot_turtle()
+
+-game.bird.move()
++while True:
++    game.bird.move()
+##
+
+turtle.mainloop()
+```
