@@ -15,6 +15,7 @@ weight: 12
         canvas = self.screen.getcanvas()
         canvas.itemconfig(self.screen._bgpic, anchor="sw")
         ##
+        self.update_score()
         self.current_world.obstacle_positions = []
         self.myrtle = RobotTurtle(
             colour='#402e08',
