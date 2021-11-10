@@ -1,6 +1,6 @@
 ---
 title: Activating Portals
-weight: 7
+weight: 8
 ---
 
 ```python

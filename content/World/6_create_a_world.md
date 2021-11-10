@@ -1,12 +1,12 @@
 ---
 title: 🌏 Creating a world
-weight: 5
+weight: 6
 ---
 
 TODO use printout to design your world
 
 ```python
-# World.py
+# worlds.py
 
 from World import World
 

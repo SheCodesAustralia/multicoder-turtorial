@@ -1,6 +1,6 @@
 ---
 title: 🚪 Placing Portals
-weight: 6
+weight: 7
 ---
 
 ```python

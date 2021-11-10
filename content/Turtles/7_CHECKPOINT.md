@@ -1,8 +1,6 @@
 ---
 title: ✅ Checkpoint
-weight: 5
+weight: 7
 ---
 
 TODO
-
-next: lists and loops

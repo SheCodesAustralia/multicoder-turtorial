@@ -1,6 +1,6 @@
 ---
 title: Using Functions (RENAME)
-weight: 3
+weight: 4
 ---
 
 Our characters need a way to check if there are obstacles in their path. Let's write a function to check for us:
