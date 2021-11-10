@@ -1,5 +1,5 @@
 ---
-title: CHECKPOINT
+title: ✅ CHECKPOINT
 weight: 12
 ---
 

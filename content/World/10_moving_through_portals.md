@@ -20,14 +20,14 @@ WORLDS = [
             (8, 6), (9, 0), (9, 1), (9, 4), (9, 6), (10, 6)
         ],
         portal_position=(10, 0),
-        robot_start_position=(10, 10),
+        bird_start_position=(10, 10),
         food_position=(1, 10)
 -    )
 +    ),
 +    World(
 +        obstacle_positions=[(x, y)],
 +        portal_position=(x, y),
-+        robot_start_position=(x, y),
++        bird_start_position=(x, y),
 +        food_position=(x, y)
 +    )
     ##
@@ -65,7 +65,7 @@ WORLDS = [
         self.world = self.world + 1
         self.current_world = WORLDS[self.world]
         self.draw_world()
-        self.create_robot_turtle()
+        self.create_robot_bird()
         self.bird.move()
         self.create_user_turtle(user_turtle_start_position)
         ##

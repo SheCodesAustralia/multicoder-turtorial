@@ -20,7 +20,7 @@ WORLDS = [
             (8, 6), (9, 0), (9, 1), (9, 4), (9, 6), (10, 6)
         ],
         portal_position=(10, 0),
-        robot_start_position=(10, 10),
+        bird_start_position=(10, 10),
         food_position=(1, 10)
     )
     ##
@@ -37,7 +37,7 @@ class Game:
 -        self.current_world = World(
 -            obstacle_positions=[],
 -            portal_position=(0, 1),
--            robot_start_position=(0, 2),
+-            bird_start_position=(0, 2),
 -            food_position=(0, 3)
 -        )
         self.bird = None

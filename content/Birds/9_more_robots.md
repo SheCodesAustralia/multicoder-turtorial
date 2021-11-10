@@ -21,14 +21,14 @@ class Game:
 
 ```diff
 # game.py
-    def create_robot_turtle(self):
+    def create_robot_bird(self):
         ##
-        bird = RobotTurtle(
+        bird = RobotBird(
             colour='#000000',
             shape='classic',
             speed=3,
             game=self,
-            start_position=self.current_world.robot_start_position
+            start_position=self.current_world.bird_start_position
         )
         self.bird = bird
 +        self.birds.append(bird)
@@ -47,9 +47,9 @@ game.draw_world()
 ##
 game.create_user_turtle((0, 0))
 
-game.create_robot_turtle()
-+game.create_robot_turtle()
-+game.create_robot_turtle()
+game.create_robot_bird()
++game.create_robot_bird()
++game.create_robot_bird()
 
 while True:
 +    for bird in game.birds:

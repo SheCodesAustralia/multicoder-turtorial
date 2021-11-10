@@ -14,7 +14,7 @@ weight: 12
         self.world = self.world + 1
         self.current_world = WORLDS[self.world]
         self.draw_world()
-        self.create_robot_turtle()
+        self.create_robot_bird()
         self.bird.move()
         self.create_user_turtle(user_turtle_start_position)
         ##

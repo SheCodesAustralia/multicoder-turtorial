@@ -6,14 +6,14 @@ weight: 1
 ```python
 # game.py
 
-    def create_robot_turtle(self):
+    def create_robot_bird(self):
         ##
-        bird = RobotTurtle(
+        bird = RobotBird(
             colour='#000000',
             shape='classic',
             speed=3,
             game=self,
-            start_position=self.current_world.robot_start_position
+            start_position=self.current_world.bird_start_position
         )
         self.bird = bird
         ##
@@ -29,7 +29,7 @@ game.create_base_world()
 game.draw_world()
 
 ##
-game.create_robot_turtle()
+game.create_robot_bird()
 ##
 
 turtle.mainloop()
@@ -42,7 +42,7 @@ Let's also make the birds a bit bigger so they are easier to see:
 ```python
 # Turtles.py
 
-class RobotTurtle(CustomTurtle):
+class RobotBird(CustomTurtle):
     def __init__(self, colour, shape, speed, game, start_position):
         super().__init__(colour, shape, speed, game, False, start_position)
         ##

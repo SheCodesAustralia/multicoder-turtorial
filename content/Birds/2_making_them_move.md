@@ -16,7 +16,7 @@ weight: 2
 ```python
 # Turtles.py
 
-class RobotTurtle(CustomTurtle):
+class RobotBird(CustomTurtle):
     def __init__(self, colour, shape, speed, game, start_position):
         super().__init__(colour, shape, speed, game, False, start_position)
         ##
@@ -41,7 +41,7 @@ game.create_base_world()
 game.draw_world()
 
 ##
-game.create_robot_turtle()
+game.create_robot_bird()
 
 game.bird.move()
 
@@ -63,7 +63,7 @@ game.create_base_world()
 game.draw_world()
 
 ##
-game.create_robot_turtle()
+game.create_robot_bird()
 
 -game.bird.move()
 +while True:

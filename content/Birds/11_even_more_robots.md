@@ -17,10 +17,10 @@ Create 1 bird per level.
             self.world = self.world + 1
             self.current_world = WORLDS[self.world]
             self.draw_world()
--            self.create_robot_turtle()
+-            self.create_robot_bird()
 -            self.bird.move()
 +            for count in range(self.world+1):
-+                self.create_robot_turtle()
++                self.create_robot_bird()
 +            for bird in self.birds:
 +                bird.move()
             self.create_user_turtle(user_turtle_start_position)
