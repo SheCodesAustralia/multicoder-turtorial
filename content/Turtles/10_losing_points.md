@@ -1,23 +1,10 @@
 ---
-title: Collisions
-weight: 8
+title: Losing Points
+weight: 10
 ---
-
-```python
-# MoveObject.py
-
-    def is_collision(self):
-        ##
-        if self.game.myrtle.current_position == self.game.bird.current_position:
-            return True
-        return False
-        ##
-        pass
-```
 
 ```diff
 # MoveObject.py
-
     def move_forward(self):
         ##
         direction = self.heading()
@@ -40,10 +27,8 @@ weight: 8
                 self.forward(STEP_SIZE)
                 self.enter_portal()
 
-+        if self.is_collision():
-+            self.game.myrtle.goto_start_position()
-        ##
-        pass
+        if self.is_collision():
++            self.game.score = self.game.score - 5
++            self.game.update_score()
+            self.game.myrtle.goto_start_position()
 ```
-
-TEST: moving into the same cell as the bird will put you back to the start position.

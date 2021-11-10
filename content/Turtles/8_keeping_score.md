@@ -1,6 +1,6 @@
 ---
 title: Keeping Score
-weight: 7
+weight: 8
 ---
 
 ```diff

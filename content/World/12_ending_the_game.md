@@ -1,6 +1,6 @@
 ---
 title: Ending the Game
-weight: 11
+weight: 12
 ---
 
 ```python
