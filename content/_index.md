@@ -4,10 +4,12 @@ title: "She Codes"
 
 # Welcome to She Codes
 
-TODO explain the game - include a gif?
+We're big fans of of turtles and programming here at She Codes, so we thought, why not combine the two?!
 
-This will have the description for explaining who does what game.
+You're task is to create a game using the Python Turtle. Here's a snippet of the game to give you an idea of what you are working towards:
 
-### Please select a tutorial
+![](images/preview.gif)
 
-{{% children description="true" %}}
+Here's the catch, it's going to take a whole team to complete the game, so you'll need to find two other coders to work with.
+
+Let's get started!
