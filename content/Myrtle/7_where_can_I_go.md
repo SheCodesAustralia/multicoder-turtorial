@@ -33,6 +33,7 @@ Also add the following to `MoveObject.py`:
     def move_forward(self):
         ##
         direction = self.heading()
+        new_pos = self.get_up_position()
         if direction == 90.0:  # facing up
             new_pos = self.get_up_position()
 
@@ -59,6 +60,7 @@ I'll give you a hint to get started:
      def move_forward(self):
         # figure out new position
         direction = self.heading()
+        new_pos = self.get_up_position()
         if direction == 90.0:  # facing up
             new_pos = self.get_up_position()
 +        if direction == x.x:  # facing right
