@@ -23,13 +23,13 @@ Notice that this code is _very_ similar to when we created obstacles. That's bec
 Next let's make sure we actually call the function that we just wrote.
 Add the following to `Game.py`:
 
-```python
+```diff
 # Game.py
 
     def draw_world(self):
         ##
         self.current_world.draw_obstacles()
-        self.current_world.draw_portal()
++        self.current_world.draw_portal()
         ##
         pass
 ```

@@ -15,4 +15,8 @@ Try running the code and make sure you can all see the expected behaviour for ea
 
 {{% /notice %}}
 
+{{% notice warning %}}
+
 The next step that we are going to do involves a bit of teamwork. You and teammate working on Myrtle need to now head over to [Teamwork - Calculating Positions](../../teamwork/1_calculating_positions)
+
+{{% /notice %}}

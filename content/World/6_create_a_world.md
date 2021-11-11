@@ -83,7 +83,7 @@ Let's remove our code from earlier and replace it with a for loop:
         pass
 ```
 
-Not only does this make our code neater, but it also means that if you change the coordinates in `world.py`, the obstacles will still be created in the correct place.
+Not only does this make our code neater, but it also means that if you change the coordinates in `worlds.py`, the obstacles will still be created in the correct place.
 
 {{% notice info %}}
 
