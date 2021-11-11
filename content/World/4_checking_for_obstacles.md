@@ -1,5 +1,5 @@
 ---
-title: Checking for Obstacles
+title: 🕵️ Checking for Obstacles
 weight: 4
 ---
 

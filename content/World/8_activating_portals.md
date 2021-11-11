@@ -1,5 +1,5 @@
 ---
-title: Activating Portals
+title: 🌀 Activating Portals
 weight: 8
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 🧑‍🎨 Design your own world!
+title: 🧑🏻‍🎨 Design your own world!
 weight: 10
 ---
 

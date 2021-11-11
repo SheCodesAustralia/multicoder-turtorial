@@ -1,5 +1,5 @@
 ---
-title: 🪨 Creating Obstacles, but better
+title: 💁🏽 Creating Obstacles, but better
 weight: 3
 ---
 
