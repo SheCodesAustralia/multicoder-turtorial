@@ -15,4 +15,4 @@ Try running the code and make sure you can all see the expected behaviour for ea
 
 {{% /notice %}}
 
-The next step that we are going to do involves a bit of teamwork. You and teammate working on the birds need to now head over to [Teamwork - Calculating Positions](../../teamwork/1_calculating_positions)
+The next step that we are going to do involves a bit of teamwork. You and teammate working on Myrtle need to now head over to [Teamwork - Calculating Positions](../../teamwork/1_calculating_positions)

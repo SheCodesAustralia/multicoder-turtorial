@@ -1,5 +1,5 @@
 ---
-title: Calculating Positions
+title: 🧮 Calculating Positions
 weight: 1
 ---
 

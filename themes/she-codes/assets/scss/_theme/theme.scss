@@ -698,6 +698,7 @@ div.notices {
         top: 2px;
         left: 1rem;
         color: #ffffff;
+        font-weight: 600;
       }
     }
   }
@@ -710,7 +711,7 @@ div.notices.info {
 
     &:first-child {
       &:after {
-        content: "🚨 TEST IT 🚨";
+        content: "🚨 TEST 🚨";
       }
     }
   }

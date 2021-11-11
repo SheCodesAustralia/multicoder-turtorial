@@ -1,10 +1,10 @@
 ---
 title: Where can I go?
-weight: 5
+weight: 6
 ---
 
 ```diff
-# Turtles.py
+# Characters.py
     def move(self):
         ##
 +        turning_angles = [0, 90, 180, 270]
@@ -46,7 +46,7 @@ TODO challenge to calculate some of these themselves
 ```
 
 ```diff
-# Turtles.py
+# Characters.py
     def move(self):
         ##
 -        turning_angles = [0, 90, 180, 270]

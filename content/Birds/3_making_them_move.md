@@ -1,7 +1,12 @@
 ---
 title: 🏃 Make them Move
-weight: 2
+weight: 3
 ---
+
+Cool, we have a bird.
+Next step: make it move!
+
+You're in competition with the teammate working on Myrtle. They may or may not have already added the following code snippet, but just incase they haven't, add the following to `MoveObject.py`:
 
 ```python
 # MoveObject.py
@@ -13,8 +18,10 @@ weight: 2
         pass
 ```
 
+And then add the following to `Characters.py`:
+
 ```python
-# Turtles.py
+# Characters.py
 
 class RobotBird(CustomTurtle):
     def __init__(self, colour, shape, speed, game, start_position):
@@ -31,6 +38,9 @@ class RobotBird(CustomTurtle):
         ##
         pass
 ```
+
+Finally, call the function that will actually trigger the movement in the bird.
+Add the following to `Game.py`:
 
 ```python
 # Game.py
@@ -50,9 +60,15 @@ game.bird.move()
 turtle.mainloop()
 ```
 
-Everytime you start the game, the turtle should move a random number of steps.
+{{% notice info %}}
 
-Let's make it keep moving:
+Everytime you start the game the bird should move a random number of steps.
+Try restarting the game a few times to see this in action.
+
+{{% /notice %}}
+
+But we want the turtle to keep moving right?
+Add the following to `Game.py`:
 
 ```diff
 # Game.py
@@ -72,3 +88,9 @@ game.create_robot_bird()
 
 turtle.mainloop()
 ```
+
+{{% notice info %}}
+
+Restart the game, the bird should keep moving around.
+
+{{% /notice %}}

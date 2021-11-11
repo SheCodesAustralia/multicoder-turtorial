@@ -1,7 +1,11 @@
 ---
 title: 😵‍💫 Make Myrtle Spin
-weight: 2
+weight: 4
 ---
+
+Now that Myrtle is on the screen, let's start adding the ability for the user to interact with her!
+
+Add the following to `MoveObject.py`:
 
 ```python
 # MoveObject.py
@@ -14,8 +18,10 @@ weight: 2
 
 ```
 
+Then add the following to `Characters.py`:
+
 ```python
-# Turtles.py
+# Characters.py
 class UserTurtle(CustomTurtle):
 
     def __init__(self, colour, shape, speed, game, start_position):
@@ -26,4 +32,10 @@ class UserTurtle(CustomTurtle):
 
 ```
 
-TEST: press the left arrow key, will spin the turtle.
+Now when you press the `left` arrow key, Myrtle will rotate to the left!
+
+{{% notice info %}}
+
+Run the code and press the `left` arrow key, watch Myrtle spin!
+
+{{% /notice %}}

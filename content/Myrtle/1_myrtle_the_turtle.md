@@ -3,6 +3,10 @@ title: 🐢 Myrtle the Turtle
 weight: 1
 ---
 
+First thing's first, let's get Myrtle on the screen.
+
+Add the following to `Game.py`:
+
 ```python
 # Game.py
 
@@ -19,6 +23,10 @@ weight: 1
         pass
 ```
 
+That function will create Myrtle, but we need to call the function in order for that code to run.
+
+Add the following to `Game.py`:
+
 ```python
 # Game.py
 
@@ -33,4 +41,8 @@ game.create_user_turtle((0, 0))
 turtle.mainloop()
 ```
 
-TEST: turtle should appear in bottom left corner
+{{% notice info %}}
+
+Run the code! You should see a tiny turtle appear in the bottom left corner.
+
+{{% /notice %}}

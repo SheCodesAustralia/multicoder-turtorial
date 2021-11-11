@@ -1,6 +1,6 @@
 ---
 title: Gaining Points
-weight: 12
+weight: 13
 ---
 
 ```diff

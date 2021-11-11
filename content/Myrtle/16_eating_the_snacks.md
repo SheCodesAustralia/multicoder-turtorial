@@ -1,6 +1,6 @@
 ---
 title: Eating the Snacks
-weight: 15
+weight: 16
 ---
 
 First we need to be able to check if there is food in a cell or not.

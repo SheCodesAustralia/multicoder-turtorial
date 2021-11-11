@@ -3,6 +3,10 @@ title: 😈 Creating an Enemy
 weight: 1
 ---
 
+First thing's first, let's get a bird on the screen.
+
+Add the following to `Game.py`:
+
 ```python
 # Game.py
 
@@ -20,6 +24,10 @@ weight: 1
         pass
 ```
 
+That function will create a bird, but we need to call the function in order for that code to run.
+
+Add the following to `Game.py`:
+
 ```python
 # Game.py
 turtle.listen()
@@ -35,20 +43,31 @@ game.create_robot_bird()
 turtle.mainloop()
 ```
 
-TEST: but the turtle doesn't appear, let's fix that...
-
-Let's also make the birds a bit bigger so they are easier to see:
+Finally, to actually see the bird on the screen we need to add the following to `MoveObject.py`:
 
 ```python
-# Turtles.py
+# MoveObject.py
 
-class RobotBird(CustomTurtle):
-    def __init__(self, colour, shape, speed, game, start_position):
-        super().__init__(colour, shape, speed, game, False, start_position)
+    def goto_start_position(self):
         ##
-        self.shapesize(2, 2)
+        self.penup()
+        self.hideturtle()
+        self.current_position = self.start_position
+        start_position = convert_coord_to_grid_pos(self.start_position)
+        self.goto(start_position)
+        self.showturtle()
         ##
-
+        pass
 ```
 
-TODO: loops before step 2
+{{% notice info %}}
+
+Make sure you can see the bird appear on the screen. Ok, yes, a little bit of imagination is needed here, that arrow is our bird from a bird's-eye-view.... see what I did there? 😀
+
+{{% /notice %}}
+
+{{% notice warning %}}
+
+There is a catch here though! This will not work until the teammate working on Myrtle also reaches their first checkpoint.
+
+{{% /notice %}}

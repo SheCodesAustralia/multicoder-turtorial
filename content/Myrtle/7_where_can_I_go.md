@@ -1,9 +1,11 @@
 ---
-title: Losing Points
-weight: 10
+title: Where can I go?
+weight: 7
 ---
 
-```diff
+TODO could provide a diagram for headings, so they have to work out three of them.
+
+```python
 # MoveObject.py
     def move_forward(self):
         ##
@@ -17,18 +19,9 @@ weight: 10
         if direction == 180.0:  # facing left
             new_pos = self.get_left_position()
 
-        if self.game.current_world.cell_is_empty(new_pos):
+        if not self.game.current_world.cell_contains_obstacle(new_pos):
             self.current_position = new_pos
             self.forward(STEP_SIZE)
-
-        if self.allowed_through_portal:
-            if self.game.current_world.cell_contains_portal(new_pos):
-                self.current_position = new_pos
-                self.forward(STEP_SIZE)
-                self.enter_portal()
-
-        if self.is_collision():
-+            self.game.score = self.game.score - 5
-+            self.game.update_score()
-            self.game.myrtle.goto_start_position()
+        ##
+        pass
 ```
