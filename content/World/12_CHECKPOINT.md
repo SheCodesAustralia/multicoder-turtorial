@@ -9,7 +9,7 @@ Now is a good time to check in with your team again to see if they have also rea
 
 {{% /notice %}}
 
-{{% notice warning %}}
+{{% notice info %}}
 
 Try running the code and make sure you can all see the expected behaviour for each of your components.
 

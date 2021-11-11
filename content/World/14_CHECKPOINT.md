@@ -9,7 +9,7 @@ Check in with your team, and make sure they have reached the final checkpoint (o
 
 {{% /notice %}}
 
-{{% notice warning %}}
+{{% notice info %}}
 
 Try running the code and make sure you can all see the expected behaviour for each of your components.
 

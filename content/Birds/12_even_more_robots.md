@@ -3,7 +3,9 @@ title: Even More Robots!
 weight: 12
 ---
 
-Create 1 bird per level.
+To make things a little more interesting, we'll add a new bird for each world. So the first world will have one bird, the second world will have two birds, and so on...
+
+Add the following to `Game.py`:
 
 ```diff
 # Game.py
@@ -19,7 +21,8 @@ Create 1 bird per level.
             self.draw_world()
 -            self.create_robot_bird()
 -            self.bird.move()
-+            for count in range(self.world+1):
++            num_birds = self.world + 1
++            for count in range(num_birds):
 +                self.create_robot_bird()
 +            for bird in self.birds:
 +                bird.move()
@@ -28,7 +31,9 @@ Create 1 bird per level.
         pass
 ```
 
-We'll need to check for collisions with all the birds:
+We'll need to check for collisions with all the birds.
+
+Add the following to `MoveObject.py`:
 
 ```diff
 # MoveObject.py
@@ -42,4 +47,31 @@ We'll need to check for collisions with all the birds:
         return False
         ##
         pass
+```
+
+Finally, make sure you remove the additional birds from testing earlier.
+
+Remove the following from 'Game.py`:
+
+```diff
+# Game.py
+turtle.listen()
+
+game = Game()
+game.create_base_world()
+game.draw_world()
+
+##
+game.create_user_turtle((0, 0))
+
+game.create_robot_bird()
+-game.create_robot_bird()
+-game.create_robot_bird()
+
+while True:
+    for bird in game.birds:
+        bird.move()
+##
+
+turtle.mainloop()
 ```

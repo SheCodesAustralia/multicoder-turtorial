@@ -1,7 +1,13 @@
 ---
-title: More Robots!
+title: 🦅🦅 More Birds!
 weight: 10
 ---
+
+Ok, now that we have got our bird working, let's add more!
+
+First, let's create a new variable for keeping a list of birds.
+
+Add the following to `Game.py`:
 
 ```diff
 # Game.py
@@ -19,6 +25,10 @@ class Game:
         ##
 ```
 
+Then everytime we create a bird we'll add it to that list.
+
+Add the following to `Game.py`:
+
 ```diff
 # Game.py
     def create_robot_bird(self):
@@ -35,6 +45,10 @@ class Game:
         ##
         pass
 ```
+
+Let's test it out! Make a bunch of birds and make them all move.
+
+Add the following to `Game.py`:
 
 ```diff
 # Game.py
@@ -58,7 +72,10 @@ while True:
 ##
 
 turtle.mainloop()
-
 ```
 
-TEST start the game - should be three birds at the start.
+{{% notice info %}}
+
+Run the game and make sure you can see multiple birds moving around.
+
+{{% /notice %}}
