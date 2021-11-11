@@ -14,7 +14,7 @@ weight: 14
 ```
 
 ```diff
-# game.py
+# Game.py
 
     def draw_world(self):
         ##

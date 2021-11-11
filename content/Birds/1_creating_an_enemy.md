@@ -4,7 +4,7 @@ weight: 1
 ---
 
 ```python
-# game.py
+# Game.py
 
     def create_robot_bird(self):
         ##
@@ -21,7 +21,7 @@ weight: 1
 ```
 
 ```python
-# game.py
+# Game.py
 turtle.listen()
 
 game = Game()

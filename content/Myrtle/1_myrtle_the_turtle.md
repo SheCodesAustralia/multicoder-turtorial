@@ -4,7 +4,7 @@ weight: 1
 ---
 
 ```python
-# game.py
+# Game.py
 
     def create_user_turtle(self, start_position):
         ##
@@ -20,7 +20,7 @@ weight: 1
 ```
 
 ```python
-# game.py
+# Game.py
 
 game = Game()
 game.create_base_world()

@@ -4,7 +4,7 @@ weight: 9
 ---
 
 ```diff
-# game.py
+# Game.py
 class Game:
 
     def __init__(self):
@@ -20,7 +20,7 @@ class Game:
 ```
 
 ```diff
-# game.py
+# Game.py
     def create_robot_bird(self):
         ##
         bird = RobotBird(
@@ -37,7 +37,7 @@ class Game:
 ```
 
 ```diff
-# game.py
+# Game.py
 turtle.listen()
 
 game = Game()

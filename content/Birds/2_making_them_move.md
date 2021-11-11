@@ -33,7 +33,7 @@ class RobotBird(CustomTurtle):
 ```
 
 ```python
-# game.py
+# Game.py
 turtle.listen()
 
 game = Game()
@@ -55,7 +55,7 @@ Everytime you start the game, the turtle should move a random number of steps.
 Let's make it keep moving:
 
 ```diff
-# game.py
+# Game.py
 turtle.listen()
 
 game = Game()

@@ -4,7 +4,7 @@ weight: 8
 ---
 
 ```diff
-# game.py
+# Game.py
 class Game:
 
     def __init__(self):
@@ -19,7 +19,7 @@ class Game:
 ```
 
 ```python
-# game.py
+# Game.py
     def update_score(self):
         ##
         self.score_display.clear()
@@ -29,7 +29,7 @@ class Game:
 ```
 
 ```python
-# game.py
+# Game.py
     def create_base_world(self):
         self.screen.setup(520, 520)
         self.screen.setworldcoordinates(0, 0, 500, 500)

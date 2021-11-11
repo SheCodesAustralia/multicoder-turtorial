@@ -6,7 +6,7 @@ weight: 11
 Create 1 bird per level.
 
 ```diff
-# game.py
+# Game.py
     def find_next_world(self):
         ##
         if (self.world == len(WORLDS) - 1):

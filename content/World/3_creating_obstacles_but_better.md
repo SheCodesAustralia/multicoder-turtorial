@@ -7,10 +7,10 @@ Ok, so we just created a bunch of obstacles.
 But, becuase of where we put that code, we'll create the obstacles once, and then have to write that code all over again later when we want to move to a new world.
 Instead, let's move that code into a function that we'll be able to call as many times as we want.
 
-Cut that code from `game.py`:
+Cut that code from `Game.py`:
 
 ```diff
-# game.py
+# Game.py
 
 game = Game()
 game.create_base_world()
@@ -58,10 +58,10 @@ And add it to `World.py`:
 
 ```
 
-Then we'll call that function from `game.py` instead.
+Then we'll call that function from `Game.py` instead.
 
 ```python
-# game.py
+# Game.py
 
     def draw_world(self):
         ##
@@ -72,7 +72,6 @@ Then we'll call that function from `game.py` instead.
 
 {{% notice info %}}
 
-🚨 TEST IT 🚨
 Run the code, you should see rocks (your obstacles) appear on the screen just as they did before - but this time us developers are happier because that code is neater 😍
 
 {{% /notice %}}

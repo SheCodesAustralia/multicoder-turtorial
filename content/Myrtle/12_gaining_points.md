@@ -4,7 +4,7 @@ weight: 12
 ---
 
 ```diff
-# game.py
+# Game.py
     def find_next_world(self):
         ##
         self.clear_world()

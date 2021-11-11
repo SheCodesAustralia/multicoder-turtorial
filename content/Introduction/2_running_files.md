@@ -4,3 +4,6 @@ weight: 2
 ---
 
 TODO
+
+Show how to open turtle.
+Show where the "console" is.

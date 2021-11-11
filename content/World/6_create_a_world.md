@@ -3,7 +3,14 @@ title: 🌏 Creating a world
 weight: 6
 ---
 
-TODO use printout to design your world
+The end goal of the game is to have multiple sections of a beach that Myrtle moves through.
+Right now we have one section of beach, or "world", but eventually we are going to want many.
+Each world will have obstacles in different places, as well as as umbrella for shelter, which acts as the portal to next part of the beach (aka the next world).
+Eventually we'll also have food that Myrtle can eat to collect extra points.
+
+We're going to put all of these worlds in a list together.
+We've designed the first one for you, you'll make your own shortly.
+Add the following to `worlds.py`:
 
 ```python
 # worlds.py
@@ -27,8 +34,10 @@ WORLDS = [
 ]
 ```
 
+Since we have now saved a world in our `worlds.py` file, we can remove the starter world from `Game.py`, and use our new world instead:
+
 ```diff
-# game.py
+# Game.py
 
 class Game:
 
@@ -47,6 +56,9 @@ class Game:
         ##
 
 ```
+
+Previously, we manually defined each obstacle, but now we want to create an obstacle for every coordinate given in the list in `worlds.py`.
+Let's remove our code from earlier and replace it with a for loop:
 
 ```diff
 # World.py
@@ -69,7 +81,12 @@ class Game:
 +            Obstacle(ROCK, position)
         ##
         pass
-
 ```
 
-TEST: make sure it's still working
+Not only does this make our code neater, but it also means that if you change the coordinates in `world.py`, the obstacles will still be created in the correct place.
+
+{{% notice info %}}
+
+Run the code an make sure you can see all the obstacles!
+
+{{% /notice %}}

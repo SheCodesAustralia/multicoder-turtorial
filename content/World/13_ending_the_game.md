@@ -1,10 +1,15 @@
 ---
-title: Ending the Game
-weight: 12
+title: 🎬 Ending the Game
+weight: 13
 ---
 
+But what happens if I go through a portal and there are no more worlds?
+That means Myrtle has finally reached the beach!
+
+Let's fill in the `game_end()` function in `Game.py`:
+
 ```python
-# game.py
+# Game.py
     def game_end(self):
         ##
         turtle.clearscreen()
@@ -29,8 +34,11 @@ weight: 12
         ##
 ```
 
+Then, call this function when we've reached the umbrella in the last world.
+Add the following to `Game.py`:
+
 ```diff
-# game.py
+# Game.py
     def find_next_world(self):
         ##
 +        if (self.world == len(WORLDS) - 1):
@@ -47,3 +55,9 @@ weight: 12
         ##
         pass
 ```
+
+{{% notice info %}}
+
+Test it! Go through all the worlds and make you can see Myrtle in the ocean at the end!
+
+{{% /notice %}}

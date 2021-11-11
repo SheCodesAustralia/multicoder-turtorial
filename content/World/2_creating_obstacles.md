@@ -25,15 +25,15 @@ class Obstacle(turtle.Turtle):
         ##
 ```
 
-This code creates the shell of an obstacle.
+This code creates a template for obstacles.
 It is what defines how big an obstacles should appear on the screen, and how to get to it's final position.
 
-The next bit of code tells this code what obstacles to actually create.
+The next bit of code is what fills in the blanks for the template (e.g. where on the screen to go and what shape it should be) and actually creates the obstacles.
 
-Add the following to `game.py`:
+Add the following to `Game.py`:
 
 ```python
-# game.py
+# Game.py
 
 game = Game()
 game.create_base_world()
@@ -59,7 +59,6 @@ turtle.mainloop()
 
 {{% notice info %}}
 
-🚨 TEST IT 🚨
 Run the code, you should see rocks (your obstacles) appear on the screen!
 
 {{% /notice %}}
