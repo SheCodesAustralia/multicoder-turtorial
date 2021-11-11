@@ -1,5 +1,5 @@
 ---
-title: Eating the Snacks
+title: 🍽️ Eating the Snacks
 weight: 16
 ---
 
