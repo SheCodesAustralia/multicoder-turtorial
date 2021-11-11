@@ -14,6 +14,7 @@ Add the following to `MoveObject.py`:
     def move_forward(self):
         ##
         direction = self.heading()
+        new_pos = (0, 0)
         if direction == 90.0:  # facing up
             new_pos = self.get_up_position()
 
