@@ -1,12 +1,18 @@
 ---
 title: 🏃‍♀️ Make Myrtle Move
-weight: 6
+weight: 5
 ---
 
 Cool, so she spins.
 That's particularly useful by itself, so next we'll add the ability for her to move forward.
 
-You're in competition with the teammate working on the birds. They may or may not have already added the following code snippet, but just incase they haven't, add the following to `MoveObject.py`:
+{{% notice warning %}}
+
+You're in competition with the teammate working on the birds. They may or may not have already added the following code snippet.
+
+{{% /notice %}}
+
+Add the following to `MoveObject.py`:
 
 ```python
 # MoveObject.py

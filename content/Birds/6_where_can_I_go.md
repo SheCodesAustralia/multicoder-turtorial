@@ -26,10 +26,10 @@ TODO challenge to calculate some of these themselves
 # MoveObject.py
     def get_possible_positions(self):
         ##
-        forwards_position = self.get_forwards_position()
+        forwards_position = self.get_up_position()
         right_position = self.get_right_position()
         left_position = self.get_left_position()
-        backwards_position = self.get_backwards_position()
+        backwards_position = self.get_down_position()
 
         valid_directions = []
         if self.game.current_world.cell_is_empty(forwards_position):

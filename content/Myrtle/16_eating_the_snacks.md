@@ -37,11 +37,11 @@ Then we'll use this to check if Myrtle has landed in a cell with food:
         ##
         direction = self.heading()
         if direction == 90.0:  # facing up
-            new_pos = self.get_forwards_position()
+            new_pos = self.get_up_position()
         if direction == 0.0:  # facing right
             new_pos = self.get_right_position()
         if direction == 270.0:  # facing down
-            new_pos = self.get_backwards_position()
+            new_pos = self.get_down_position()
         if direction == 180.0:  # facing left
             new_pos = self.get_left_position()
 

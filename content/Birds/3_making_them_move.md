@@ -6,7 +6,13 @@ weight: 3
 Cool, we have a bird.
 Next step: make it move!
 
-You're in competition with the teammate working on Myrtle. They may or may not have already added the following code snippet, but just incase they haven't, add the following to `MoveObject.py`:
+{{% notice warning %}}
+
+You're in competition with the teammate working on Myrtle. They may or may not have already added the following code snippet.
+
+{{% /notice %}}
+
+Add the following to `MoveObject.py`:
 
 ```python
 # MoveObject.py

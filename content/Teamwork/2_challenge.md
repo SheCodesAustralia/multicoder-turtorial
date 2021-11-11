@@ -1,5 +1,5 @@
 ---
-title: Challenge!
+title: 🤔 Challenge!
 weight: 2
 ---
 
