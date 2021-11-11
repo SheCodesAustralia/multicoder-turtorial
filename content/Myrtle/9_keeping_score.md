@@ -6,7 +6,7 @@ weight: 9
 Ok, Myrtle moves, and depending on where your teammate working on the World is at, she might even be able to move between worlds.
 The next step is keep score.
 We'll get points for reaching an umbrella and later for eating food.
-But we'll loose points when we get caught by a bird.
+But we'll lose points when we get caught by a bird.
 
 To start with, we'll set up a score variable. Add the following to `Game.py`:
 

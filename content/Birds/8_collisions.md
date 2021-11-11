@@ -1,5 +1,5 @@
 ---
-title: Collisions
+title: 💥 Collisions
 weight: 8
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Where can I go?
+title: 🤷🏾‍♂️ Where can I go?
 weight: 6
 ---
 
