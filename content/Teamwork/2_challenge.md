@@ -8,6 +8,7 @@ The next step is to add the following features:
 
 -   The team members responsible for creating Myrtle and the Bird should add their own worlds.
 -   Give Myrtle the ability to move backwards when the `down` arrow key is pressed.
+-   Give Myrtle the ability to turn right when the `right` arrow key is pressed.
 
 Now it is time to make this game your own!
 Below is a list of features you could add to your game, it's up to you and your team to decide what you want to work on next.
