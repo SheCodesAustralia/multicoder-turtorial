@@ -7,3 +7,5 @@ Start here
 
 -   Getting set up on the platform
 -   Creating and running Python files
+
+{{% children description="true" %}}

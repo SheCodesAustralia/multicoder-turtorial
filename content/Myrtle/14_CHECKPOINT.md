@@ -1,6 +1,6 @@
 ---
 title: ✅ Checkpoint
-weight: 9
+weight: 14
 ---
 
 {{% notice note %}}

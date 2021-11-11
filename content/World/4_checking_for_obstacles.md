@@ -1,5 +1,5 @@
 ---
-title: Using Functions (RENAME)
+title: 🕵️ Checking for Obstacles
 weight: 4
 ---
 

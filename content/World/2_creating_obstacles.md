@@ -3,6 +3,10 @@ title: 🪨 Creating Obstacles
 weight: 2
 ---
 
+Now that we know where the center of each cell is, let's use that to place some obstacles.
+
+Add the following to `Obstacle.py`:
+
 ```python
 # Obstacle.py
 
@@ -19,11 +23,17 @@ class Obstacle(turtle.Turtle):
         self.goto(position)
         self.showturtle()
         ##
-
 ```
 
+This code creates a template for obstacles.
+It is what defines how big an obstacles should appear on the screen, and how to get to it's final position.
+
+The next bit of code is what fills in the blanks for the template (e.g. where on the screen to go and what shape it should be) and actually creates the obstacles.
+
+Add the following to `Game.py`:
+
 ```python
-# game.py
+# Game.py
 
 game = Game()
 game.create_base_world()
@@ -47,4 +57,8 @@ Obstacle(ROCK, position)
 turtle.mainloop()
 ```
 
-TEST: obstacles should appear
+{{% notice info %}}
+
+Run the code, you should see rocks (your obstacles) appear on the screen!
+
+{{% /notice %}}

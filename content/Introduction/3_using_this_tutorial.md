@@ -4,3 +4,5 @@ weight: 3
 ---
 
 TODO: how to read code blocks (what is old/new)
+
+What are checkpoints.

@@ -3,6 +3,10 @@ title: 🚪 Placing Portals
 weight: 7
 ---
 
+The world we just added to `worlds.py` included a `portal_position`, but we can't see it on the screen yet, let's fix that.
+
+Add the following to `World.py`:
+
 ```python
 # World.py
 
@@ -14,8 +18,13 @@ weight: 7
         pass
 ```
 
+Notice that this code is _very_ similar to when we created obstacles. That's because thanks to the obstacle template we made earlier, we can use the same code to make lots of different shapes, in this case, a portal (well, umbrella, use your imagination).
+
+Next let's make sure we actually call the function that we just wrote.
+Add the following to `Game.py`:
+
 ```python
-# game.py
+# Game.py
 
     def draw_world(self):
         ##
@@ -25,4 +34,8 @@ weight: 7
         pass
 ```
 
-NEXT: conditionals
+{{% notice info %}}
+
+The portal should now appear in the grid when you run the code.
+
+{{% /notice %}}

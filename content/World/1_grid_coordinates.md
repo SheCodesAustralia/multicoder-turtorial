@@ -3,7 +3,17 @@ title: 🎯 Understanding the Grid Coordinate System
 weight: 1
 ---
 
-TODO: diagram of grid
+The world is created using a grid system, and is therefore broken in cells (squares).
+
+{{% notice warning %}}
+
+TODO: explain the system and include a diagram of the grid.
+
+{{% /notice %}}
+
+So the first thing that we are going to do is write some code that will help all the characters and obstacles in the game to work out where the center of the cell is.
+
+Add the following code to `utils.py`:
 
 ```python
 # utils.py
