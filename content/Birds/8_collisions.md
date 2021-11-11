@@ -3,6 +3,11 @@ title: Collisions
 weight: 8
 ---
 
+Ok, so our bird now randomly flies around, but that's about it.
+When the bird is in the same cell as Myrtle, we want to sent Myrtle back to her start position. That means we need to know when the bird and Myrtle are both in the same cell.
+
+Add the following to `MoveObject.py`:
+
 ```python
 # MoveObject.py
 
@@ -14,6 +19,10 @@ weight: 8
         ##
         pass
 ```
+
+Then call that function when either the bird or Myrtle move.
+
+Add the following to `MoveObject.py`:
 
 ```diff
 # MoveObject.py
@@ -46,4 +55,8 @@ weight: 8
         pass
 ```
 
-TEST: moving into the same cell as the bird will put you back to the start position.
+{{% notice info %}}
+
+Test it out by moving Myrtle into the same cell as the bird - Myrtle should reappear at her start position.
+
+{{% /notice %}}

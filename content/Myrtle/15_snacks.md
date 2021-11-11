@@ -1,7 +1,12 @@
 ---
-title: Snacks
+title: 🥬 Snacks
 weight: 15
 ---
+
+Last but not least, let's add a way for Myrtle to gain bonus points!
+We'll do this by putting a snack in the grid somewhere.
+
+Add the following to `World.py`:
 
 ```python
 # World.py
@@ -12,6 +17,8 @@ weight: 15
         ##
         pass
 ```
+
+Then call this function by adding the following to `Game.py`:
 
 ```diff
 # Game.py
@@ -25,4 +32,8 @@ weight: 15
         pass
 ```
 
-TEST should draw a snack
+{{% notice info %}}
+
+Run the code, you should see a plant (the food) appear in the grid.
+
+{{% /notice %}}

@@ -3,7 +3,11 @@ title: Eating the Snacks
 weight: 16
 ---
 
-First we need to be able to check if there is food in a cell or not.
+Now that we have snacks, let's make them worth points.
+
+When Myrtle moves into a cell, we'll need to be able to check if there is food in a cell or not.
+
+Add the following to `World.py`:
 
 ```python
 # World.py
@@ -15,7 +19,12 @@ First we need to be able to check if there is food in a cell or not.
         return False
 ```
 
+Then add a check for food in the existing function for checking if a cell is empty or not.
+
+Add the following to `World.py`:
+
 ```diff
+# World.py
     def cell_is_empty(self, cell):
         ##
         if self.cell_contains_portal(cell):
@@ -28,7 +37,9 @@ First we need to be able to check if there is food in a cell or not.
         return True
 ```
 
-Then we'll use this to check if Myrtle has landed in a cell with food:
+Then we'll use this to check if Myrtle has landed in a cell with food.
+
+Add the following to `MoveObject.py`:
 
 ```diff
 # MoveObject.py
@@ -67,6 +78,10 @@ Then we'll use this to check if Myrtle has landed in a cell with food:
         pass
 ```
 
+If she did land in a cell with food, then we'll add 5 points.
+
+Add the following to `MoveObject.py`:
+
 ```python
 # MoveObject.py
 
@@ -79,4 +94,8 @@ Then we'll use this to check if Myrtle has landed in a cell with food:
         pass
 ```
 
-TEST eating the snacks should add 5 to the score.
+{{% notice info %}}
+
+Try moving Myrtle to the food, the score should go up by 5.
+
+{{% /notice %}}

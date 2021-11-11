@@ -1,7 +1,11 @@
 ---
-title: Gaining Points
+title: ⬆️ Gaining Points
 weight: 13
 ---
+
+Myrtle looses points for colliding with a bird, but gains points when she reaches an umbrella. Let's add the latter step now.
+
+Add the following to `Game.py`:
 
 ```diff
 # Game.py
@@ -21,4 +25,8 @@ weight: 13
         pass
 ```
 
-TEST going through a portal should increase the score
+{{% notice info %}}
+
+Make Myrtle move to an umbrella, the score should increase by 10.
+
+{{% /notice %}}

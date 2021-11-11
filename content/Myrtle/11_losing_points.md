@@ -1,7 +1,12 @@
 ---
-title: Losing Points
+title: ⬇️ Losing Points
 weight: 11
 ---
+
+When Myrtle gets caught by a bird she is sent back to the start position.
+Now that we are keeping score, let's also remove 5 points when she is caught.
+
+Add the following to `MoveObject.py`:
 
 ```diff
 # MoveObject.py
@@ -32,3 +37,9 @@ weight: 11
 +            self.game.update_score()
             self.game.myrtle.goto_start_position()
 ```
+
+{{% notice info %}}
+
+Make Myrtle move into the same cell as the bird, 5 points should be removed.
+
+{{% /notice %}}
