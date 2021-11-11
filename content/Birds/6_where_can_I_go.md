@@ -20,6 +20,21 @@ weight: 6
 
 But what if they try to turn into a rock?
 
+Add the following to `World.py`:
+
+```python
+# World.py
+
+    def cell_is_empty(self, cell):
+        ##
+        if self.cell_contains_portal(cell):
+            return False
+        if self.cell_contains_obstacle(cell):
+            return False
+        ##
+        return True
+```
+
 TODO challenge to calculate some of these themselves
 
 ```python
