@@ -4,7 +4,7 @@ weight: 3
 ---
 
 Ok, so we just created a bunch of obstacles.
-But, becuase of where we put that code, we'll create the obstacles once, and then have to write that code all over again later when we want to move to a new world.
+But becuase of where we put that code, we'll create the obstacles once, and then have to write that code all over again later when we want to move to a new world.
 Instead, let's move that code into a function that we'll be able to call as many times as we want.
 
 Cut that code from `Game.py`:
