@@ -1,6 +1,6 @@
 ---
 title: 🤷🏾‍♂️ Where can I go?
-weight: 6
+weight: 5
 ---
 
 ```diff

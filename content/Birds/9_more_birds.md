@@ -1,6 +1,6 @@
 ---
 title: 🦅🦅 More Birds!
-weight: 10
+weight: 9
 ---
 
 Ok, now that we have got our bird working, let's add more!

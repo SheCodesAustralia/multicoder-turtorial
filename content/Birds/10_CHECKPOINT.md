@@ -1,7 +1,9 @@
 ---
 title: ✅ Checkpoint
-weight: 6
+weight: 10
 ---
+
+TODO
 
 {{% notice note %}}
 
@@ -15,4 +17,8 @@ Try running the code and make sure you can all see the expected behaviour for ea
 
 {{% /notice %}}
 
-The next step that we are going to do involves a bit of teamwork. You and teammate working on the birds need to now head over to [Teamwork - Calculating Positions](../../teamwork/1_calculating_positions)
+{{% notice warning %}}
+
+The teammate working on the World will need to have completed moving through portals before you can start the next step.
+
+{{% /notice %}}

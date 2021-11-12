@@ -3,6 +3,8 @@ title: ✅ Checkpoint
 weight: 10
 ---
 
+TODO
+
 {{% notice note %}}
 
 Now is a good time to check in with your team again to see if they have also reached their next checkpoint.
@@ -17,6 +19,6 @@ Try running the code and make sure you can all see the expected behaviour for ea
 
 {{% notice warning %}}
 
-The teammate working on the birds will need to complete implement collisions before you can start the next step.
+The teammate working on the World will need to have completed moving through portals before you can start the next step.
 
 {{% /notice %}}

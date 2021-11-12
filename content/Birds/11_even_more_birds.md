@@ -1,6 +1,6 @@
 ---
 title: 🦅🦅🦅 Even More Birds!
-weight: 12
+weight: 11
 ---
 
 To make things a little more interesting, we'll add a new bird for each world. So the first world will have one bird, the second world will have two birds, and so on...

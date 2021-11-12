@@ -1,6 +1,6 @@
 ---
 title: 🥬 Snacks
-weight: 15
+weight: 13
 ---
 
 Last but not least, let's add a way for Myrtle to gain bonus points!

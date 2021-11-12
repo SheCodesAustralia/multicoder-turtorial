@@ -1,6 +1,6 @@
 ---
 title: ⬆️ Gaining Points
-weight: 13
+weight: 12
 ---
 
 Myrtle looses points for colliding with a bird, but gains points when she reaches an umbrella. Let's add the latter step now.

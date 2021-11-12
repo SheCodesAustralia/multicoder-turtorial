@@ -1,7 +1,9 @@
 ---
 title: ✅ Checkpoint
-weight: 12
+weight: 8
 ---
+
+TODO
 
 {{% notice note %}}
 
@@ -17,6 +19,6 @@ Try running the code and make sure you can all see the expected behaviour for ea
 
 {{% notice warning %}}
 
-The teammate working on the World will need to have completed activating the portals before you can start the next step.
+The teammate working on the World will need to have completed moving through portals before you can start the next step.
 
 {{% /notice %}}

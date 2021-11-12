@@ -1,6 +1,6 @@
 ---
 title: 💥 Collisions
-weight: 8
+weight: 7
 ---
 
 Ok, so our bird now randomly flies around, but that's about it.
