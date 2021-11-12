@@ -22,6 +22,21 @@ Add the following to `World.py`:
         pass
 ```
 
+And we'll add another check to the function for checking a cell is completely empty.
+
+Add the following to `World.py`:
+
+```python
+# World.py
+
+    def cell_is_empty(self, cell):
+        ##
+        if self.cell_contains_obstacle(cell):
+            return False
+        ##
+        return True
+```
+
 Then we'll use that function to enter a portal when we land on one.
 Add the following to `MoveObject.py`:
 
@@ -39,7 +54,8 @@ Add the following to `MoveObject.py`:
         if direction == 180.0:  # facing left
             new_pos = self.get_left_position()
 
-        if self.game.current_world.cell_is_empty(new_pos):
+-        if not self.game.current_world.cell_contains_obstacle(new_pos):
++        if self.game.current_world.cell_is_empty(new_pos):
             self.current_position = new_pos
             self.forward(STEP_SIZE)
 

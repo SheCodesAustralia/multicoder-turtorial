@@ -16,10 +16,6 @@ Add the following to `MoveObject.py`:
         direction = self.heading()
         if direction == 90.0:  # facing up
             new_pos = self.get_up_position()
-
-        if not self.game.current_world.cell_contains_obstacle(new_pos):
-            self.current_position = new_pos
-            self.forward(STEP_SIZE)
         ##
         pass
 ```
