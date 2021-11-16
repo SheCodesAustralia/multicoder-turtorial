@@ -14,3 +14,5 @@ Here's the steps we'll go through to do that:
 4. Send Myrtle back to the start if a bird catches her.
 
 Got it? Awesome, let's get started!
+
+![](../../images/birds.gif)
