@@ -10,8 +10,7 @@ weight: 5
         ##
 +        turning_angles = [0, 90, 180, 270]
 +        turning_angle = random.choice(turning_angles)
-+        current_direction = self.heading()
-+        self.setheading(current_direction + turning_angle)
++        self.setheading(turning_angle)
         num_steps = random.randint(1, 5)
         for step in range(num_steps):
             self.move_forward()
@@ -28,14 +27,14 @@ Add the following to `MoveObject.py`:
 # MoveObject.py
     def get_possible_positions(self):
         ##
-        forwards_position = self.get_up_position()
+        up_position = self.get_up_position()
         right_position = self.get_right_position()
         left_position = self.get_left_position()
-        backwards_position = self.get_down_position()
+        down_position = self.get_down_position()
 
         valid_directions = []
-        if self.game.current_world.cell_is_empty(forwards_position):
-            valid_directions.append(0)
+        if self.game.current_world.cell_is_empty(up_position):
+            valid_directions.append(90)
         return valid_directions
         ##
         pass
@@ -49,14 +48,14 @@ I'll give you a hint to get started:
 # MoveObject.py
     def get_possible_positions(self):
         ##
-        forwards_position = self.get_up_position()
+        up_position = self.get_up_position()
         right_position = self.get_right_position()
         left_position = self.get_left_position()
-        backwards_position = self.get_down_position()
+        down_position = self.get_down_position()
 
         valid_directions = []
-        if self.game.current_world.cell_is_empty(forwards_position):
-            valid_directions.append(0)
+        if self.game.current_world.cell_is_empty(up_position):
+            valid_directions.append(90)
 +        if self.game.current_world.cell_is_empty(some_position):
 +            valid_directions.append(x)
 +        if self.game.current_world.cell_is_empty(some_position):
@@ -79,8 +78,7 @@ Once your function is ready to go, call it it by adding the following to `Charac
 -        turning_angles = [0, 90, 180, 270]
 +        turning_angles = self.get_possible_positions()
         turning_angle = random.choice(turning_angles)
-        current_direction = self.heading()
-        self.setheading(current_direction + turning_angle)
+        self.setheading(turning_angle)
         num_steps = random.randint(1, 5)
         for step in range(num_steps):
             self.move_forward()
