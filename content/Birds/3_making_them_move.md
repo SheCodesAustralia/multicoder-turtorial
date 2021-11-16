@@ -8,7 +8,7 @@ Next step: make it move!
 
 {{% notice warning %}}
 
-You're in competition with the teammate working on Myrtle. They may or may not have already added the following code snippet.
+You're in competition with the teammate working on Myrtle. They may or may not have already completed the `move_forward()` function.
 
 {{% /notice %}}
 

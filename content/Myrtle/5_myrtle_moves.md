@@ -8,7 +8,7 @@ That's particularly useful by itself, so next we'll add the ability for her to m
 
 {{% notice warning %}}
 
-You're in competition with the teammate working on the birds. They may or may not have already added the following code snippet.
+You're in competition with the teammate working on the birds. They may or may not have already completed the `move_forward()` function.
 
 {{% /notice %}}
 

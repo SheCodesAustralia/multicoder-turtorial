@@ -11,6 +11,7 @@ Add the following to `MoveObject.py`:
 
 ```python
 # MoveObject.py
+
     def move_forward(self):
         ##
         direction = self.heading()
@@ -19,30 +20,6 @@ Add the following to `MoveObject.py`:
         ##
         pass
 ```
-
-Then we'll need to make sure that cell does not contain any obstacles.
-Also add the following to `MoveObject.py`:
-
-```diff
-# MoveObject.py
-    def move_forward(self):
-        ##
-        direction = self.heading()
-        if direction == 90.0:  # facing up
-            new_pos = self.get_up_position()
-
-+        if not self.game.current_world.cell_contains_obstacle(new_pos):
-+            self.current_position = new_pos
-+            self.forward(STEP_SIZE)
-        ##
-        pass
-```
-
-{{% notice info %}}
-
-Test it out! Move Myrtle so that she is facing up and has an obstacle above her, make sure she can't move forwards into it that obstacle's cell.
-
-{{% /notice %}}
 
 I've given you the code for if she is facing up, you now need to complete the code for if she is facing right, down or left.
 
@@ -71,6 +48,25 @@ You'll need to replace the `x.x` with the correct numbers, and call the correct 
 Your printout includes information about how the turtle's headings work.
 
 {{% /notice %}}
+
+Then we'll need to make sure that cell does not contain any obstacles.
+Also add the following to `MoveObject.py`:
+
+```diff
+# MoveObject.py
+
+    def move_forward(self):
+        ##
+        direction = self.heading()
+        if direction == 90.0:  # facing up
+            new_pos = self.get_up_position()
+
++        if not self.game.current_world.cell_contains_obstacle(new_pos):
++            self.current_position = new_pos
++            self.forward(STEP_SIZE)
+        ##
+        pass
+```
 
 {{% notice info %}}
 
