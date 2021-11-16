@@ -14,3 +14,5 @@ Here's the steps we'll go through to do that:
 4. Create a point system for getting through portals and picking up food.
 
 Got it? Awesome, let's get started!
+
+![](../../images/turtle.gif)

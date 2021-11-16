@@ -13,3 +13,5 @@ Here's the steps we'll go through to do that:
 4. Use the portals to move between worlds.
 
 Got it? Awesome, let's get started!
+
+![](../../images/world.gif)
