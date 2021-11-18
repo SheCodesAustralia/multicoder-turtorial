@@ -62,3 +62,9 @@ turtle.mainloop()
 Run the code, you should see rocks (your obstacles) appear on the screen!
 
 {{% /notice %}}
+
+{{% notice warning %}}
+
+Head over to the Python Exercises to learn about functions before moving to the next step. [Click here: Functions](../../exercises/functions)
+
+{{% /notice %}}
