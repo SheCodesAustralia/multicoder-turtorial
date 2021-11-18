@@ -53,5 +53,5 @@ The explanation of the grid coordinate system in your printout might be a useful
 
 Once you've completed the functions, head back to your tutorial:
 
--   [Myrtle](../../myrtle/7_where_can_i_go)
--   [Birds](../../birds/6_where_can_i_go)
+-   [Myrtle](../../exercises/conditionals)
+-   [Birds](../../exercises/conditionals)

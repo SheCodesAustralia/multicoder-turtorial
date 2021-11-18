@@ -68,6 +68,12 @@ Make sure you can see the bird appear on the screen. Ok, yes, a little bit of im
 
 {{% notice warning %}}
 
-There is a catch here though! This will not work until the teammate working on Myrtle also reaches their first checkpoint.
+There is a catch here though! This will not work until the teammate working on Myrtle reaches Checkpoint A.
+
+{{% /notice %}}
+
+{{% notice warning %}}
+
+Head over to the Python Exercises to learn about functions before moving to the next step. [Click here: Functions](../../exercises/functions)
 
 {{% /notice %}}

@@ -31,6 +31,12 @@ Run the code and make sure Myrtle is in the center of the cell.
 
 {{% notice warning %}}
 
-There is a catch here though! This will not work until the teammate working on the birds also reaches their first checkpoint.
+There is a catch here though! This will not work until the teammate working on the birds reaches their Checkpoint A.
+
+{{% /notice %}}
+
+{{% notice warning %}}
+
+Head over to the Python Exercises to learn about functions before moving to the next step. [Click here: Functions](../../exercises/functions)
 
 {{% /notice %}}

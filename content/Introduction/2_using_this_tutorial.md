@@ -1,11 +1,7 @@
 ---
 title: Using this tutorial
-weight: 3
+weight: 2
 ---
-
-TODO: how to read code blocks (what is old/new)
-
-What are checkpoints.
 
 This tutorial will take you through the fundamentals of coding, while also creating a game using the Python Turtle.
 
@@ -28,6 +24,12 @@ Orange blocks mean it is time to test your code.
 {{% notice tip %}}
 
 Green blocks have tips to help you complete a step.
+
+{{% /notice %}}
+
+{{% notice note %}}
+
+Blue blocks are challenges for you to complete.
 
 {{% /notice %}}
 
