@@ -22,9 +22,9 @@ There will be birds flying above the beach, which will move randomly.
 You guessed it, we'll have to code that too!
 The birds also have to avoid obstacles, and cannot hide under the beach umbrellas.
 
-### The World (and all it's obstacles)
+### The World (and all its obstacles)
 
-The world itself is made up of a grid, and each character (Myrtle and the birds) and the obstacles can only occupy one cell in the gird at a time.
+The world itself is made up of a grid, and each character (Myrtle and the birds) and the obstacles can only occupy one cell in the grid at a time.
 We'll need to figure out how to place the obstacles, and also how to move to the next part of the beach when Myrtle reaches an umbrella.
 
 ## So where to next?
