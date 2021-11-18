@@ -102,3 +102,7 @@ How did you get here?
 -   [Myrtle](../../myrtle/3_myrtle_spins)
 -   [Birds](../../birds/2_checkpoint_a)
 -   [World](../../world/3_creating_obstacles_but_better)
+
+p.s. this is Enzo:
+
+![](../../images/enzo.jpg)
