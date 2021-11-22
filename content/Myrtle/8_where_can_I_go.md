@@ -13,7 +13,7 @@ Add the following to `MoveObject.py`:
 # MoveObject.py
     def move_forward(self):
         ##
--        self.forward(STEP_SIZE)
+-        self.forward(CELL_WIDTH)
 +        direction = self.heading()
 +        new_pos = (0, 0)
 +        if direction == 90.0:  # facing up
@@ -65,7 +65,7 @@ Also add the following to `MoveObject.py`:
 
 +        if not self.game.current_world.cell_contains_obstacle(new_pos):
 +            self.current_position = new_pos
-+            self.forward(STEP_SIZE)
++            self.forward(CELL_WIDTH)
         ##
         pass
 ```

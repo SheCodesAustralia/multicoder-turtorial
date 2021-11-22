@@ -19,7 +19,7 @@ Add the following to `MoveObject.py`:
 
     def move_forward(self):
         ##
-        self.forward(STEP_SIZE)
+        self.forward(CELL_WIDTH)
         ##
         pass
 ```

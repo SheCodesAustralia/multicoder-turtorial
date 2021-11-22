@@ -33,8 +33,8 @@ def convert_coord_to_grid_pos(coordinates):
     ##
     x = coordinates[0]
     y = coordinates[1]
-    x = STEP_SIZE * (0.5 + x)
-    y = STEP_SIZE * (0.5 + y)
+    x = CELL_WIDTH * (0.5 + x)
+    y = CELL_WIDTH * (0.5 + y)
     return (x, y)
     ##
     return (22.5, 22.5)

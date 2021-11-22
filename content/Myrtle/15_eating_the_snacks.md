@@ -58,16 +58,16 @@ Add the following to `MoveObject.py`:
 
         if self.game.current_world.cell_is_empty(new_pos):
             self.current_position = new_pos
-            self.forward(STEP_SIZE)
+            self.forward(CELL_WIDTH)
 
         if self.allowed_through_portal:
             if self.game.current_world.cell_contains_portal(new_pos):
                 self.current_position = new_pos
-                self.forward(STEP_SIZE)
+                self.forward(CELL_WIDTH)
                 self.enter_portal()
 +            if self.game.current_world.cell_contains_food(new_pos):
 +                self.current_position = new_pos
-+                self.forward(STEP_SIZE)
++                self.forward(CELL_WIDTH)
 +                self.eat_food()
 
         if self.is_collision():
