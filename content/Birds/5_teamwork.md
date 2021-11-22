@@ -15,3 +15,5 @@ Head over to [Calculating Positions](../../teamwork/1_calculating_positions) to 
 Head over to the Python Exercises to learn about conditionals before moving to the next step. [Click here: Conditionals](../../exercises/conditionals).
 
 {{% /notice %}}
+
+![](../../images/teamwork2.gif)

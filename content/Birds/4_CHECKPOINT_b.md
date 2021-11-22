@@ -14,3 +14,5 @@ Wait for the teammate working on Myrtle to reach Checkpoint B.
 Test your code!
 
 {{% /notice %}}
+
+![](../../images/checkpoint2.gif)

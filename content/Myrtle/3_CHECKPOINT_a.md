@@ -20,3 +20,5 @@ Run the code and make sure you can see Myrtle on the screen.
 Head over to the Python Exercises to learn about functions before moving to the next step. [Click here: Functions](../../exercises/functions)
 
 {{% /notice %}}
+
+![](../../images/checkpoint6.gif)

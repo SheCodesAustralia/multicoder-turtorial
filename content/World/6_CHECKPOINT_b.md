@@ -22,4 +22,4 @@ Head over to the Python Exercises to learn about lists and loops before moving t
 
 {{% /notice %}}
 
-![](../../images/checkpoint8.gif)
+![](../../images/checkpoint11.gif)

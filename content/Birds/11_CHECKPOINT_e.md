@@ -15,4 +15,4 @@ Test your code!
 
 {{% /notice %}}
 
-![](../../images/checkpoint7.gif)
+![](../../images/checkpoint5.gif)

@@ -16,4 +16,4 @@ Test your code! Myrtle should no longer be able to move through rocks.
 
 {{% /notice %}}
 
-![](../../images/checkpoint2.gif)
+![](../../images/checkpoint8.gif)

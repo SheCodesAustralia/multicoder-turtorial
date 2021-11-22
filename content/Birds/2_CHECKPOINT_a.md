@@ -21,4 +21,4 @@ Make sure you can see the bird appear on the screen. Ok, yes, a little bit of im
 
 {{% /notice %}}
 
-![](../../images/checkpoint4.gif)
+![](../../images/checkpoint1.gif)

@@ -16,4 +16,4 @@ Test your code! The bird should no longer fly into rocks.
 
 {{% /notice %}}
 
-![](../../images/checkpoint10.gif)
+![](../../images/checkpoint3.gif)

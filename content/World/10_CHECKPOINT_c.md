@@ -16,4 +16,4 @@ Test your code! The bird and Myrtle should not be able to go through rocks, and 
 
 {{% /notice %}}
 
-![](../../images/checkpoint9.gif)
+![](../../images/checkpoint12.gif)

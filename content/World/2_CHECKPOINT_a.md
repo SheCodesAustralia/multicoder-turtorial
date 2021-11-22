@@ -15,4 +15,4 @@ Test your code! Make sure the bird and Myrtle are in the center of their cells.
 
 {{% /notice %}}
 
-![](../../images/checkpoint8.gif)
+![](../../images/checkpoint10.gif)
