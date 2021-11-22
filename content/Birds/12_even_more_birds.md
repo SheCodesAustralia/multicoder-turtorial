@@ -11,7 +11,7 @@ Add the following to `Game.py`:
 # Game.py
     def find_next_world(self):
         ##
-        if (self.world == len(WORLDS) - 1):
+        if self.world == len(WORLDS) - 1:
             self.game_end()
         else:
             self.clear_world()
