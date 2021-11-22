@@ -3,7 +3,7 @@ title: Your First Python Program
 weight: 2
 ---
 
-Open the Python Exercises workspace.
+Open the `Python Exercises` workspace.
 
 Add the following to `variables.py`:
 

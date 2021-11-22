@@ -3,6 +3,8 @@ title: Where to next?
 weight: 3
 ---
 
+Open the `Turtorial Team` workspace.
+
 The goal of the game is to get Myrtle (the turtle) safely from the beach to the water.
 Unfortunately there are rocks in her way, and birds that will interfere with her course.
 But, whenever she reaches shelter (in this case, a beach umbrella), she'll get access to the next part of the beach.
@@ -26,6 +28,16 @@ The birds also have to avoid obstacles, and cannot hide under the beach umbrella
 
 The world itself is made up of a grid, and each character (Myrtle and the birds) and the obstacles can only occupy one cell in the grid at a time.
 We'll need to figure out how to place the obstacles, and also how to move to the next part of the beach when Myrtle reaches an umbrella.
+
+## Running the Game
+
+{{% notice tip %}}
+
+Whenever you want to test your code, you'll need to make sure you run the `Game.py` file (this should be the default file when you press the `Run` button).
+To see the Python Turtle, hover on the `View Desktop` button, copy the link and open it in a new tab.
+![](../../images/running-game.gif)
+
+{{% /notice %}}
 
 ## So where to next?
 
