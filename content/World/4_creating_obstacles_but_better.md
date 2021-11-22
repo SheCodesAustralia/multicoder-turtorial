@@ -75,3 +75,9 @@ Then we'll call that function from `Game.py` instead.
 Run the code, you should see rocks (your obstacles) appear on the screen just as they did before - but this time us developers are happier because that code is neater 😍
 
 {{% /notice %}}
+
+{{% notice warning %}}
+
+Head over to the Python Exercises to learn about **Conditionals** before moving to the next step. [Click here: Conditionals](../../exercises/functions)
+
+{{% /notice %}}

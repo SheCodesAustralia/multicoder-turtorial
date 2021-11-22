@@ -1,5 +1,5 @@
 ---
-title: 🤷🏾 Where can I go?
+title: 🧭 Where can I go?
 weight: 8
 ---
 
@@ -9,14 +9,15 @@ We want to get the cell in front of Myrtle, which means that if she is facing up
 
 Add the following to `MoveObject.py`:
 
-```python
+```diff
 # MoveObject.py
     def move_forward(self):
         ##
-        direction = self.heading()
-        new_pos = (0, 0)
-        if direction == 90.0:  # facing up
-            new_pos = self.get_up_position()
+-        self.forward(STEP_SIZE)
++        direction = self.heading()
++        new_pos = (0, 0)
++        if direction == 90.0:  # facing up
++            new_pos = self.get_up_position()
         ##
         pass
 ```
@@ -68,9 +69,3 @@ Also add the following to `MoveObject.py`:
         ##
         pass
 ```
-
-{{% notice info %}}
-
-Test it out! Make sure that no matter what what Myrtle is facing, she cannot move forwards into an obstacle.
-
-{{% /notice %}}

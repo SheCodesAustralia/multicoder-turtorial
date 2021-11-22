@@ -48,7 +48,7 @@ class RobotBird(CustomTurtle):
 Finally, call the function that will actually trigger the movement in the bird.
 Add the following to `Game.py`:
 
-```python
+```diff
 # Game.py
 turtle.listen()
 
@@ -57,10 +57,10 @@ game.create_base_world()
 game.draw_world()
 
 ##
+game.create_user_turtle((0, 0))
 game.create_robot_bird()
 
-game.bird.move()
-
++game.bird.move()
 ##
 
 turtle.mainloop()
@@ -85,6 +85,7 @@ game.create_base_world()
 game.draw_world()
 
 ##
+game.create_user_turtle((0, 0))
 game.create_robot_bird()
 
 -game.bird.move()
@@ -97,6 +98,13 @@ turtle.mainloop()
 
 {{% notice info %}}
 
-Restart the game, the bird should keep moving around.
+Restart the game, the bird should keep moving....too far, did it just fly off the screen?
+Don't worry, we'll fix that in a later step.
+
+{{% /notice %}}
+
+{{% notice warning %}}
+
+Head over to the Python Exercises to learn about lists before moving to the next step. [Click here: Lists](../../exercises/lists)
 
 {{% /notice %}}

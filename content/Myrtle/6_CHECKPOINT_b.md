@@ -1,11 +1,11 @@
 ---
 title: ✅ Checkpoint B
-weight: 5
+weight: 6
 ---
 
 {{% notice warning %}}
 
-Wait for the teammate working on Birds to reach Checkpoint A.
+Wait for the teammate working on Birds to reach Checkpoint B.
 
 {{% /notice %}}
 

@@ -20,7 +20,16 @@ Our characters need a way to check if there are obstacles in their path. Let's w
         return False
 ```
 
+{{% notice tip %}}
+
+Note that we are also checking that we haven't reached the end of the grid.
+We are checking we are not too far to the left or below the grid by checking the x and y values are greater than 0.
+We are also checking we are not too far to the right or above the grid by checking the x and y values are not greater than the number of rows/columns.
+
+{{% /notice %}}
+
 We'll also add a check to another function for checking a cell is completely empty.
+Right now we only have obstacles to worry about, but soon we'll also have portals and food to worry about.
 
 Add the following to `World.py`:
 

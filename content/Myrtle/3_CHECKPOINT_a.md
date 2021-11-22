@@ -11,7 +11,7 @@ Wait for the teammates working on the World and the Birds to both reach Checkpoi
 
 {{% notice info %}}
 
-Run the code and make sure Myrtle is in the center of the cell.
+Run the code and make sure you can see Myrtle on the screen.
 
 {{% /notice %}}
 

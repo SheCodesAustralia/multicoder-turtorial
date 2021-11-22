@@ -157,6 +157,6 @@ Otherwise if it is raining tell them to take an unbrella, or if the real feel te
 
 How did you get here?
 
--   [Myrtle](../../myrtle/7_where_can_i_go)
--   [Birds](../../birds/5_where_can_i_go)
+-   [Myrtle](../../myrtle/8_where_can_i_go)
+-   [Birds](../../birds/6_where_can_i_go)
 -   [World](../../world/1_grid_coordinates)

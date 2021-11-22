@@ -1,11 +1,11 @@
 ---
-title: ✅ Checkpoint D
-weight: 10
+title: ✅ Checkpoint E
+weight: 11
 ---
 
 {{% notice warning %}}
 
-Wait for the teammate working on the World to reach Checkpoint C.
+Wait for the teammate working on the World to reach Checkpoint D.
 
 {{% /notice %}}
 

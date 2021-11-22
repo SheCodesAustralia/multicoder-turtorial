@@ -26,11 +26,13 @@ And we'll add another check to the function for checking a cell is completely em
 
 Add the following to `World.py`:
 
-```python
+```diff
 # World.py
 
     def cell_is_empty(self, cell):
         ##
++        if self.cell_contains_portal(cell):
++            return False
         if self.cell_contains_obstacle(cell):
             return False
         ##

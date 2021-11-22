@@ -1,11 +1,11 @@
 ---
 title: ✅ Checkpoint D
-weight: 11
+weight: 9
 ---
 
 {{% notice warning %}}
 
-Wait for the teammate working on Birds to reach Checkpoint D.
+Wait for the teammate working on Myrtle to reach Checkpoint D.
 Wait for the teammate working on the World to reach Checkpoint D.
 
 {{% /notice %}}
@@ -16,4 +16,4 @@ Test your code!
 
 {{% /notice %}}
 
-![](../../images/checkpoint3.gif)
+![](../../images/checkpoint6.gif)

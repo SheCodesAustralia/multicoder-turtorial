@@ -32,7 +32,7 @@ The next bit of code is what fills in the blanks for the template (e.g. where on
 
 Add the following to `Game.py`:
 
-```python
+```diff
 # Game.py
 
 game = Game()
@@ -40,18 +40,22 @@ game.create_base_world()
 game.draw_world()
 
 ##
-position = convert_coord_to_grid_pos((0, 7))
-Obstacle(ROCK, position)
-position = convert_coord_to_grid_pos((1, 7))
-Obstacle(ROCK, position)
-position = convert_coord_to_grid_pos((2, 1))
-Obstacle(ROCK, position)
-position = convert_coord_to_grid_pos((2, 2))
-Obstacle(ROCK, position)
-position = convert_coord_to_grid_pos((3, 2))
-Obstacle(ROCK, position)
-position = convert_coord_to_grid_pos((3, 6))
-Obstacle(ROCK, position)
+game.create_user_turtle((0, 0))
+
+game.create_robot_bird()
+
++position = convert_coord_to_grid_pos((0, 7))
++Obstacle(ROCK, position)
++position = convert_coord_to_grid_pos((1, 7))
++Obstacle(ROCK, position)
++position = convert_coord_to_grid_pos((2, 1))
++Obstacle(ROCK, position)
++position = convert_coord_to_grid_pos((2, 2))
++Obstacle(ROCK, position)
++position = convert_coord_to_grid_pos((3, 2))
++Obstacle(ROCK, position)
++position = convert_coord_to_grid_pos((3, 6))
++Obstacle(ROCK, position)
 ##
 
 turtle.mainloop()

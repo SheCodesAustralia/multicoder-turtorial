@@ -3,7 +3,7 @@ title: 💯 Keeping Score
 weight: 10
 ---
 
-Ok, Myrtle moves, and depending on where your teammate working on the World is at, she might even be able to move between worlds.
+Ok, Myrtle moves, cool.
 The next step is keep score.
 We'll get points for reaching an umbrella and later for eating food.
 But we'll lose points when we get caught by a bird.

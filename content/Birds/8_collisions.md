@@ -1,6 +1,6 @@
 ---
 title: 💥 Collisions
-weight: 7
+weight: 8
 ---
 
 Ok, so our bird now randomly flies around, but that's about it.
@@ -42,6 +42,12 @@ Add the following to `MoveObject.py`:
         if not self.game.current_world.cell_contains_obstacle(new_pos):
             self.current_position = new_pos
             self.forward(STEP_SIZE)
+
+        if self.allowed_through_portal:
+            if self.game.current_world.cell_contains_portal(new_pos):
+                self.current_position = new_pos
+                self.forward(STEP_SIZE)
+                self.enter_portal()
 
 +        if self.is_collision():
 +            self.game.myrtle.goto_start_position()

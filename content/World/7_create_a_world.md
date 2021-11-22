@@ -87,6 +87,6 @@ Not only does this make our code neater, but it also means that if you change th
 
 {{% notice info %}}
 
-Run the code an make sure you can see all the obstacles!
+Run the code and make sure you can see all the obstacles!
 
 {{% /notice %}}

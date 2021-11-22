@@ -6,12 +6,13 @@ weight: 12
 Now that we have somewhere to go, let's make our portals functional.
 Add the following to `MoveObject.py`:
 
-```python
+```diff
 # MoveObject.py
 
     def enter_portal(self):
         ##
-        self.game.find_next_world()
+-        print('Enter the portal!')
++        self.game.find_next_world()
         ##
         pass
 ```

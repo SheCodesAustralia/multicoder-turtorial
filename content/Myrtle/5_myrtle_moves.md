@@ -1,6 +1,6 @@
 ---
 title: 🏃‍♀️ Make Myrtle Move
-weight: 6
+weight: 5
 ---
 
 Cool, so she spins.
@@ -49,6 +49,6 @@ Run the code and try pressing both the `left` and `up` arrow keys to make Myrtle
 
 {{% notice warning %}}
 
-Head over to the Python Exercises to learn about lists and loops before moving to the next step. [Click here: Lists](../../exercises/lists)
+Head over to the Python Exercises to learn about lists before moving to the next step. [Click here: Lists](../../exercises/lists)
 
 {{% /notice %}}

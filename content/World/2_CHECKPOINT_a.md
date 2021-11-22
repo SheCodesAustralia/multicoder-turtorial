@@ -11,7 +11,7 @@ Wait for the teammates working on Myrtle and the Birds to both reach Checkpoint 
 
 {{% notice info %}}
 
-Test your code!
+Test your code! Make sure the bird and Myrtle are in the center of their cells.
 
 {{% /notice %}}
 

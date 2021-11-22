@@ -18,7 +18,11 @@ Let’s focus on the highlighted cell. This cell’s (x,y) coordinates are (2,1)
 
 See if you can fill in the coordinates of the three blank cells and show a mentor to check your understanding (use the grid on your worksheet).
 
-So the first thing that we are going to do is write some code that will help all the characters and obstacles in the game to work out where the center of the cell is.
+There is a problem here though.
+We are using integers 0-10 to represent each row/column in the grid, but these are not the same numbers that the Python turtle uses.
+
+To the turtle, each cell in is approximately 45 pixels wide and tall.
+Let's look at how to translate between our grid system and the turtle's.
 
 Add the following code to `utils.py`:
 
@@ -29,15 +33,15 @@ def convert_coord_to_grid_pos(coordinates):
     ##
     x = coordinates[0]
     y = coordinates[1]
-    if x == 0:
-        x = STEP_SIZE * 0.5
-    else:
-        x = STEP_SIZE * (0.5 + x)
-    if y == 0:
-        y = STEP_SIZE * 0.5
-    else:
-        y = STEP_SIZE * (0.5 + y)
+    x = STEP_SIZE * (0.5 + x)
+    y = STEP_SIZE * (0.5 + y)
     return (x, y)
     ##
     return (22.5, 22.5)
 ```
+
+{{% notice tip %}}
+
+If you are curious, here is where those equations come from: ![](../../images/coordinate-math.png)
+
+{{% /notice %}}
