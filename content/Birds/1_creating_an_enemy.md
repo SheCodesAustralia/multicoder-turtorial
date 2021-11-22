@@ -59,21 +59,3 @@ Finally, to actually see the bird on the screen we need to add the following to 
         ##
         pass
 ```
-
-{{% notice info %}}
-
-Make sure you can see the bird appear on the screen. Ok, yes, a little bit of imagination is needed here, that arrow is our bird from a bird's-eye-view.... see what I did there? 😀
-
-{{% /notice %}}
-
-{{% notice warning %}}
-
-There is a catch here though! This will not work until the teammate working on Myrtle reaches Checkpoint A.
-
-{{% /notice %}}
-
-{{% notice warning %}}
-
-Head over to the Python Exercises to learn about functions before moving to the next step. [Click here: Functions](../../exercises/functions)
-
-{{% /notice %}}

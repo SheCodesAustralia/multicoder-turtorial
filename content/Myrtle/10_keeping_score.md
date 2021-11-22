@@ -1,6 +1,6 @@
 ---
 title: 💯 Keeping Score
-weight: 9
+weight: 10
 ---
 
 Ok, Myrtle moves, and depending on where your teammate working on the World is at, she might even be able to move between worlds.

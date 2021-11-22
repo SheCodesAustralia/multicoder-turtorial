@@ -1,6 +1,6 @@
 ---
 title: 🍽️ Eating the Snacks
-weight: 14
+weight: 15
 ---
 
 Now that we have snacks, let's make them worth points.

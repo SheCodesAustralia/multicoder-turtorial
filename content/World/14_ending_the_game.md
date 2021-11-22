@@ -1,6 +1,6 @@
 ---
 title: 🎬 Ending the Game
-weight: 13
+weight: 14
 ---
 
 But what happens if I go through a portal and there are no more worlds?

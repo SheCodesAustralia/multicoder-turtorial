@@ -1,6 +1,6 @@
 ---
 title: 🚪 Placing Portals
-weight: 7
+weight: 8
 ---
 
 The world we just added to `worlds.py` included a `portal_position`, but we can't see it on the screen yet, let's fix that.

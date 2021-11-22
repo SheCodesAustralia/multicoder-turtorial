@@ -1,6 +1,6 @@
 ---
 title: 😵‍💫 Make Myrtle Spin
-weight: 3
+weight: 4
 ---
 
 Now that Myrtle is on the screen, let's start adding the ability for the user to interact with her!

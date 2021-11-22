@@ -1,6 +1,6 @@
 ---
 title: 🔀 Moving Through Portals
-weight: 11
+weight: 12
 ---
 
 Now that we have somewhere to go, let's make our portals functional.

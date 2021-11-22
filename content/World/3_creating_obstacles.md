@@ -1,6 +1,6 @@
 ---
 title: 🪨 Creating Obstacles
-weight: 2
+weight: 3
 ---
 
 Now that we know where the center of each cell is, let's use that to place some obstacles.

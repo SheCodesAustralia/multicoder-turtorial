@@ -1,6 +1,6 @@
 ---
 title: 💁🏽 Creating Obstacles, but better
-weight: 3
+weight: 4
 ---
 
 Ok, so we just created a bunch of obstacles.

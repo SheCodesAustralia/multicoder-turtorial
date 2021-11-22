@@ -1,6 +1,6 @@
 ---
 title: 🤷🏾 Where can I go?
-weight: 7
+weight: 8
 ---
 
 Now that we are able to calculate the coordinates of the neighbouring cells, we can use those functions to get the correct cell depending on which way we are facing.

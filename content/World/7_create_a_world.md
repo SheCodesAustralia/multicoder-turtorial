@@ -1,6 +1,6 @@
 ---
 title: 🌏 Creating a world
-weight: 6
+weight: 7
 ---
 
 The end goal of the game is to have multiple sections of a beach that Myrtle moves through.

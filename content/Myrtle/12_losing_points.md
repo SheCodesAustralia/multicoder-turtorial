@@ -1,6 +1,6 @@
 ---
 title: ⬇️ Losing Points
-weight: 11
+weight: 12
 ---
 
 When Myrtle gets caught by a bird she is sent back to the start position.

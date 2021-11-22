@@ -1,6 +1,6 @@
 ---
 title: 🕵️ Checking for Obstacles
-weight: 4
+weight: 5
 ---
 
 Our characters need a way to check if there are obstacles in their path. Let's write a function to check for us:

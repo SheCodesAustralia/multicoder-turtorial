@@ -1,6 +1,6 @@
 ---
 title: 🤝 Teamwork!
-weight: 6
+weight: 7
 ---
 
 This step involves working with the teammate working on the Birds.

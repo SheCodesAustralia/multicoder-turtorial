@@ -1,6 +1,6 @@
 ---
 title: 🌀 Activating Portals
-weight: 8
+weight: 9
 ---
 
 So we got some portals to appear, but they don't actually do anything yet... Let's fix that.

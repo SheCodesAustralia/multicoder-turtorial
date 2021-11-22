@@ -100,7 +100,7 @@ Write a function that takes two numbers, adds them together and prints the resul
 How did you get here?
 
 -   [Myrtle](../../myrtle/3_myrtle_spins)
--   [Birds](../../birds/2_checkpoint_a)
+-   [Birds](../../exercises/lists)
 -   [World](../../world/3_creating_obstacles_but_better)
 
 p.s. this is Enzo:

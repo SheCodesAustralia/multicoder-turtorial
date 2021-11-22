@@ -1,6 +1,6 @@
 ---
 title: 🧑🏻‍🎨 Design your own world!
-weight: 10
+weight: 11
 ---
 
 In order to use the portals, we need somewhere to go!

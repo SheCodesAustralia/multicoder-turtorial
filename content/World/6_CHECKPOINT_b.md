@@ -1,6 +1,6 @@
 ---
-title: ✅ Checkpoint A
-weight: 5
+title: ✅ Checkpoint B
+weight: 6
 ---
 
 {{% notice warning %}}
