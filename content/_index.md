@@ -12,4 +12,4 @@ You're task is to create a game using the Python Turtle. Here's a snippet of the
 
 Here's the catch, it's going to take a whole team to complete the game, so you'll need to find two other coders to work with.
 
-Let's get started!
+[Let\'s get started!](../../introduction/)

@@ -1,6 +1,6 @@
 ---
 title: Using this tutorial
-weight: 2
+weight: 1
 ---
 
 This tutorial will take you through the fundamentals of coding, while also creating a game using the Python Turtle.

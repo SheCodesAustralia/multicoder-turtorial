@@ -46,3 +46,9 @@ class UserTurtle(CustomTurtle):
 Run the code and try pressing both the `left` and `up` arrow keys to make Myrtle move around the grid.
 
 {{% /notice %}}
+
+{{% notice warning %}}
+
+Head over to the Python Exercises to learn about lists and loops before moving to the next step. [Click here: Lists](../../exercises/lists)
+
+{{% /notice %}}

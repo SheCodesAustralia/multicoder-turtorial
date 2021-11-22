@@ -1,6 +1,6 @@
 ---
 title: Where to next?
-weight: 4
+weight: 3
 ---
 
 The goal of the game is to get Myrtle (the turtle) safely from the beach to the water.
@@ -31,6 +31,7 @@ We'll need to figure out how to place the obstacles, and also how to move to the
 
 Time to chat to your team and work out who wants to take each role!
 The only way to complete the game is for every team member to consistently make it to each of their tutorial's checkpoints, so you'll have to work together to make sure you are on track and help each other out if someone is falling behind.
+Each checkpoint will tell you what checkpoint your team members need to reach in order for you to continue.
 
 Once you've decided who will do what, go to your corresponding tutorial:
 

@@ -58,13 +58,11 @@ Print the list so you can see the new items.
 
 {{% /notice %}}
 
-## Back to the game!
+{{% notice warning %}}
 
-How did you get here?
+Head over to the Python Exercises to learn about loops before moving to the next step. [Click here: Loops](../../exercises/loops)
 
--   [Myrtle](../../myrtle/)
--   [Birds](../../birds/)
--   [World](../../world/3_creating_obstacles_but_better)
+{{% /notice %}}
 
 p.s. Here are Chilli + Ivy, Remus and Enzo:
 

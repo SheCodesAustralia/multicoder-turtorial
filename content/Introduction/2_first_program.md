@@ -1,6 +1,6 @@
 ---
 title: Your First Python Program
-weight: 3
+weight: 2
 ---
 
 Open the Python Exercises workspace.
